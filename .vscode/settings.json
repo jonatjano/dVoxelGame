@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "list.h": "c",
+        "blocktype.h": "c",
+        "sharedlib.h": "c",
+        "stdio.h": "c",
+        "dlfcn.h": "c"
+    }
+}

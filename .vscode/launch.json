@@ -1,0 +1,11 @@
+{
+    "configurations": [
+    {
+        "name": "build",
+        "type": "node",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "runtimeExecutable": "echo"
+    }
+    ]
+}
