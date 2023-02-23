@@ -9,6 +9,7 @@ import std.range: iota, take;
 import std.stdio : writeln;
 import std.string : toStringz, fromStringz, lastIndexOf;
 
+alias getModDefinition_t = extern(C) ModDefinition* function();
 
 import map;
 
@@ -16,7 +17,7 @@ Block[] mMap = [];
 const mapSize = 64;
 auto rnd = Random(42);
 
-@safe int main() {
+int main() {
     BlockType*[] blocks = [];
 	string[] mods = [
 		"./mods/libcppmod.so",
